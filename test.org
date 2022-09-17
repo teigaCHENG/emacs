@@ -1,0 +1,157 @@
+#+TYP_TODO: work(w!) study(s!) leisure(l!)                   
+;; make pointer at this line, then use C-c C-c to activate it
+#+SEQ_TODO: pending(p!) todo(t!) | done(d!) abort(a@/!)      
+;; make pointer at this line, then use C-c C-c to activate it
+ 
+
+* 1*ORG-MODE*
+** /key point/
+*** need to leave a SPACE to input the title of this level or line
+*** need put * at the left of the whole line
+*** the number of * shows the level of the line (MAX 10 levels)
+** /fold/unfold the level 
+*** SHIFT-TAB  
+**** have a try to understand
+*** TAB                                                                   :e:
+**** have a try to understand
+*** ESC-RET
+**** insert a level as the same as last level
+*** SHIFT- -->
+**** set the level to TODO/DONE status
+** /table/
+*** input the head line of a table then use C-c RET to complete the rest of the table 
+| Name | pone | age |
+|------+------+-----|
+|  peter  | 1234 | 17  |
+
+** /LaTex/
+*** \alpha, \beta, \gamma.
+*** a_2, b^2,
+** /publis/
+*** C-c C-e to publish the file
+*** need to select the corresponding term/format to output
+* TODO
+* #+TAGS:e(e) f(f)
+* table
+
+|200    |   |
+| 260   |   |
+| 15000 |   |
+| 15460 |   |
+** /ORG-Learing/
+*** starting with # and a space before a line shows annotations of the following text 
+*** starting with #+ shows parameter configure of text or content attributes,like title, author, status and others
+*** [[]] shows from outside link
+*** <<>> shows inner link
+*** todo
+*** :: tag
+*** COMMENT means annotation over all text in the following
+*** text between #+BEGIN_XXX and #+END_XXX means special blocks 
+* title level 1 
+** title level 2
+*** title level 3
+**** title level 4
+* another title level 1 
+  and so on
+** pointer shift
+*** C-c C-p/n means shifting to the title above/below
+*** C-c C-b/f means shifting to the other same level titles before/next
+*** TAB / S-TAB need to have a try
+*** text settings
+**** #+STARTUP: overview
+**** #+STARTUP: content
+**** #+STARTUP: showall
+**** #+STARTUP: showeverything
+*** edit settings
+**** M-left/right
+**** M-S-left/right
+**** M-up/down
+**** M-RET
+**** C-RET
+**** M-S-RET
+**** C-S-RET
+**** C-c *
+***** have a try
+**** C-c -
+- have a try
+
+*** use C-c C-t to open TODO status or title
+*** study 
+     - State "study"      from              [2018-12-25 $B>:(I](B 21:40]
+**** leisure 
+     - State "leisure"    from "study"      [2018-12-25  21:46]
+     - State "study"      from              [2018-12-25 $B/f(B 21:44]
+**** pending 
+     - State "leisure"    from "study"      [2018-12-26 $(D=o(B 16:46]
+     - State "study"      from "study"      [2018-12-25 $(D8](B 21:48]
+     - State "study"      from "work"       [2018-12-25 $(D8](B 21:47]
+     - State "work"       from              [2018-12-25 $(D8](B 21:45]
+
+**** work example work []
+***** [-]content1
+***** [-]content2
+****** []sub-content1
+****** []sub-content2
+example work
+[]content1
+[]content2
+[]
+
+**** work 
+*** use C-c C-q to name a tag 
+**** have a try                                                           :e:
+**** pre-settings in "init.el" file
+(setq org-tag-alist '(("@work" . ?w) ("@home" . ?h) ("laptop" . ?l)))
+** to velidate the following option to use C-c C-c                  :@work:f:
+#+TAGS: @work(w) @home(h) @way(w) laptop(l) pc(p)
+
+**** dependences between tasks                                        :@work:
+***** work TODO
+           :properties:
+	   :id:
+	   :ordered:
+	   :cookie_data:
+	   :end:
+
+C-c & to quit
+
+**** time
+***** C-c . stamp a time
+****** have a try <2018-12-28 $(D:7(B> activiated time
+***** C-c ! 
+****** have a try [2018-12-28 $(D:7(B] non-activiated time
+***** C-u C-c .
+****** <2018-12-28 $(D:7(B 17:09>
+***** C-u C-c !
+****** [2018-12-28 $(D:7(B 17:10]
+***** C-c C-s
+****** SCHEDULED: <2018-12-28 $(D:7(B>
+***** C-c C-d
+****** DEADLINE: <2019-02-20 $(D=o(B>
+
+** $AAI$(D:G$B>JFbE*<{5a!JHs$A>|$B;v!$9)$AR5$BL1MQ!K(B
+*** $BL}ED0f2<MQES(B
+**** 100m$B0J2<BgP2(B150C
+**** 300-400m$BDxEY(B225C
+*** $B@P2=MQES(B
+*** $AJ5OV4+$B464o0U$ARe$B>eE*9)Dx2=!$$A2zR5$B2=!JEjF~99B?@:NO!K(B
+*** $B<gMW$AN*$BL1MQ!$>-MhBsE8$AN*>|$BMQ!J$A=x$B8}BXBe!K(B
+**** $B0H;3(B HANWANG
+***** $B4'>u4o7o(B?
+***** $B5;$AJu2c$BLLE*<+<gIT2D95(B
+***** $BZ[$A4+$B464oIuAuG=NO!JZ[0z$AO_$B!K(B
+***** $B:_9)$ARU$B>eZ[K!969n0l:3$ADQLb(B
+**** $B2fJ}$ASEJF(B
+***** $B?DJR<+<g!$9!$APx$B>#$A<6$BE*2D95(B
+***** 
+*** $B0UBgMx(BGefan
+*** $B:,?x$AJ52b$B?t?xE*;2?t$A293%5g$BO)(B
+*** $B29EYI:0\!$?.9f9;=Z(B
+
+** $AOn$BL\?=$AGk$BCm0U;v$AOn(B
+*** $A6TOn$BL\E*M}2r(B
+*** $AJ5OV$BG=NO(B
+**** $B5;$AJu4"18(B
+**** $A6T$B5;$AJu$BE*M}2r(B
+*** $(P#($A<|$B5;$AJu(B
+**** $BJ,@O$ADQ$BE@(B

@@ -1,0 +1,29 @@
+#+TITLE: Hello World! My first LaTeX document
+#+DATE: \today
+#+AUTHOR: Sachin Patil
+#+EMAIL: psachin@redhat.com
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+% #+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:nil todo:t |:t
+#+CREATOR: Emacs 25.3.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+
+* Introduction
+
+  \paragraph{}
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem
+  nisi, tincidunt tempus sem nec, elementum feugiat ipsum. Nulla in
+  diam libero. Nunc tristique ex a nibh egestas sollicitudin.
+
+  \paragraph{}
+  Mauris efficitur vitae ex id egestas. Vestibulum ligula felis,
+  pulvinar a posuere id, luctus vitae leo. Sed ac imperdiet orci, non
+  elementum leo. Nullam molestie congue placerat. Phasellus tempor et
+  libero maximus comm
+

@@ -1,0 +1,53 @@
+/* -*- coding: utf-8 -*- */
+% C-x RET f
+#+TTILE: Schedual in Everyday
+#+TAGS:  @LAB(l) @HOME(h) @COMPUER(c) @CALL(ph) { @WAY(w) @Eat(m) } 
+#+CATEGORY: Tasks on Everyday
+% use C-c C-c to comfirm TAGS is ture
+% use SHIFT + M [RET] to BEGIN TODO STATEMENT in shortcut way
+% use SHIFT + right/left to SHOW TAGS after each TODO item
+% use SHIFT + up/down to SHOW PRIORITY after each TODO item
+% use SHIFT + TAB to fold/unfold OUTLINE STATUS
+% use C-c C-c to set TAGS
+% use C-c C-t to set TODO STATUS
+% use C-c a a to OPEN agenda view
+
+* TASK
+** TODO Remember English Words <2019-02-01 Fri 07:00-09:30 +1d> :@LAB:@HOME:@WAY:
+% C-c . to set time stamp in front of each subitem
+*** *Task Introduction* 
+% use SHIFT + left/right to select STATUS 
+% use SHIFT + up/down to select PRIORITY
+**** [#A] 利用ANKI背GRE, 250 words
+**** [#A] LIULISHUO words, 250
+** TODO Learning  ElectroChemtry  <2019-02-01 Fri 09:00-11:00 +1d>    :@LAB:
+*** *Task Introduction* 
+**** [#A] Electrochemitry Learning for understanding the galvanical effect in a chemical reaction
+**** [#A] TO understand how to calculate the current-voltage (I-V) characteristics of a reaction
+**** [#B] TO develop a SPICE circuit MODEL for the I-V characteristics
+** TODO Learning English LIULISHUO <2019-02-01 Fri 13:30-14:30 +1d>     :@LAB:
+*** *Task Introduction* 
+**** [#C] 
+** TODO Numerical Analysis <2019-02-01 Fri 20:00-21:00 +1d>            :@HOME:
+   
+*** *Task Introduction* 
+**** [#B] 
+** TODO Learning EMACS <2019-02-01 Fri 21:00-21:45 +1d>                :@HOME:
+*** *Task Introductoin* 
+**** [#E]
+****  
+***** todo 
+     
+      - State "todo"       from              [2019-02-01 Fri 14:0
+* check box [1/2]
+% input [ / ]
+% then input -, M-RET
+% then input S--> or S-<-
+% C-c, C-c to check the checkbox
+  - [X] box1
+  - [-] box2
+    1. [ ] box2-1
+    2. [X] box2-2
+
+* 
+

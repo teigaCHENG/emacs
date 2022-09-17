@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+　#+TITLE: Org Mode LaTeX Exoport のテスト
+　#+AUTHOR: 某甲 某
+　#+EMAIL: hoge@example.com
+　#+LANGUAGE: ja
+　#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+　#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:nil
+　#+LATEX_CLASS: jsarticle
+　#+LATEX_CLASS_OPTIONS:[a4paper,11pt,uplatex]
+　#+LATEX_HEADER: \usepackage{txfonts}
+　#+LATEX_HEADER: \usepackage[hyperref,x11names]{xcolor}
+　#+LATEX_HEADER: \usepackage[colorlinks=true,urlcolor=SteelBlue4,linkcolor=Firebrick4]{hyperref}
+　#+LATEX_HEADER: \usepackage[AUTO]{inputenc}
+
+　#  ここから本文
+　#+LATEX: \tableofcontents
+
+　* test
+　これはテストです。
+
+　* sample
+　これはサンプルです。
+　\cite{test_2015}を引用してみます。
+

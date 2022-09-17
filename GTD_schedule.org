@@ -1,0 +1,13 @@
+/* -*- coding: utf-8 -*-*/
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+TAGS: { @Office(o) @Home(h) @Computer(c) @Phone(p) @Call(t) @Way(w) @Lunchtime(l)}
+#+TAGS: 
+* Tasks 
+: in order to show AGENDER VIEW under the CATEGORY title, have to input "#+GATEGORY" under the ProjectName
+#+CATEGORY: Tasks
+** TODO [#A] En
+SCHEDULED: <2018-12-11 壩> DEADLINE: <2018-12-11 壩>
+$\sum_{i=1}^n a_i x_i \le b$
+
+
